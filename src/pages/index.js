@@ -90,9 +90,16 @@ const pages = () => {
                 className="listing"
               >
                 <div>{list.value}</div>
-                <div onClick={() => remTask(list.id)}>remove</div>
-                <div onClick={() => doneTask(list.id)}>comp</div>
-                <div onClick={() => setEdValue(list.id)}>edit</div>
+                {list.stats === false ? (
+                  <div className="listing2">
+                    <div onClick={() => remTask(list.id)}>remove</div>
+                    <div onClick={() => doneTask(list.id)}>comp</div>
+                    <div onClick={() => setEdValue(list.id)}>edit</div>
+                  </div>
+                ) : (
+                  ""
+                )}
+
                 {EdValue === list.id ? (
                   <div>
                     <input
