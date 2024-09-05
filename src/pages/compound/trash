@@ -1,0 +1,119 @@
+// import { useState } from "react";
+
+// const davtalt = () => {
+//   const [counter, setCounter] = useState(0);
+//   const nemeh = () => {
+//     setCounter(counter + 1);
+//   };
+//   const hasah = () => {
+//     setCounter(counter - 1);
+//   };
+//   const [color, setColor] = useState("black");
+//   const change = () => {
+//     setColor("orange");
+//   };
+//   const change1 = () => {
+//     setColor("red");
+//   };
+//   const change2 = () => {
+//     setColor("yellow");
+//   };
+//   const change3 = () => {
+//     setColor("blue");
+//   };
+//   const change4 = () => {
+//     setColor("green");
+//   };
+//   const change5 = () => {
+//     setColor("grey");
+//   };
+//   const set1 = () => {
+//     setCounter(1);
+//   };
+//   const set2 = () => {
+//     setCounter(2);
+//   };
+//   const set3 = () => {
+//     setCounter(3);
+//   };
+//   const set4 = () => {
+//     setCounter(4);
+//   };
+//   const set5 = () => {
+//     setCounter(5);
+//   };
+//   const set6 = () => {
+//     setCounter(6);
+//   };
+//   const set7 = () => {
+//     setCounter(7);
+//   };
+//   const set8 = () => {
+//     setCounter(8);
+//   };
+//   const set9 = () => {
+//     setCounter(9);
+//   };
+//   const set0 = () => {
+//     setCounter(0);
+//   };
+//   return (
+//     <div style={{ backgroundColor: color }}>
+//       <div className="fontS">{counter}</div>
+//       <button onClick={nemeh} className="fontS">
+//         Add 1
+//       </button>
+//       <button onClick={hasah} className="fontS">
+//         Minus 1
+//       </button>
+//       <button onClick={set1} className="fontS">
+//         1
+//       </button>
+//       <button onClick={set2} className="fontS">
+//         2
+//       </button>
+//       <button onClick={set3} className="fontS">
+//         3
+//       </button>
+//       <button onClick={set4} className="fontS">
+//         4
+//       </button>
+//       <button onClick={set5} className="fontS">
+//         5
+//       </button>
+//       <button onClick={set6} className="fontS">
+//         6
+//       </button>
+//       <button onClick={set7} className="fontS">
+//         7
+//       </button>
+//       <button onClick={set8} className="fontS">
+//         8
+//       </button>
+//       <button onClick={set9} className="fontS">
+//         9
+//       </button>
+//       <button onClick={set0} className="fontS">
+//         0
+//       </button>
+//       <button onClick={change} className="sigma">
+//         orange
+//       </button>
+//       <button onClick={change1} className="sigma">
+//         red
+//       </button>
+//       <button onClick={change2} className="sigma">
+//         yellow
+//       </button>
+//       <button onClick={change3}>blue</button>
+//       <button onClick={change4} className="sigma">
+//         green
+//       </button>
+//       <button onClick={change5} className="sigma">
+//         grey
+//       </button>
+//     </div>
+//   );
+// };
+
+// export default davtalt;
